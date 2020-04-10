@@ -18,7 +18,7 @@ handleChange (id) {
       if (todo.id === id) {
         todo.completed = !todo.completed
       } 
-      return todo    
+        return todo   
     })
       return {
         todos: updatedTodos
@@ -26,15 +26,15 @@ handleChange (id) {
   })
 }
   render () {
-    let todoItems = this.state.todos.map(item=> <TodoItem key={item.id} item = {item} 
-    handleChange = {this.handleChange}/>)
+    let todoItems = (this.state.todos).map(item=> <TodoItem key={item.id} item = {item} 
+    handleChange = {this.handleChange}/> )
 
-  return (
-    
-      <div className ="todo-list"> 
+  
+    return (
+      <div className = "todo-list"> 
         
         <h1>To Do List</h1>
-        {todoItems}
+            {todoItems}
       </div>
     )
   }
