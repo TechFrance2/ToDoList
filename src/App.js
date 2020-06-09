@@ -1,7 +1,7 @@
 import React from 'react';
 import TodoItem from "./TodoItem";
 import todosData from "./todosData";
-
+import './App.css'
 
 class App extends React.Component {
   constructor () {
@@ -37,8 +37,7 @@ handleChange (id) {
             {todoItems}
       </div>
     )
-  }
-  
+  } 
 }
 
 export default App;

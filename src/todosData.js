@@ -2,7 +2,7 @@ const todosData = [
     {
         id: 1,
         text: "Take out the trash",
-        completed: true
+        completed: false
     },
     {
         id: 2, 
@@ -11,19 +11,25 @@ const todosData = [
     },
     {
         id: 3, 
-        text: "Clean gecko tank",
+        text: "Clean bathroom",
         completed: false
     },
     {
         id: 4,
-        text: "Mow lawn",
-        completed: true
+        text: "Do laundry",
+        completed: false
     },
     {
         id: 5, 
-        text: "Catch up on Arrested Development",
+        text: "Catch up on The Goldbergs",
         completed: false
     },
+    {
+        id: 6, 
+        text: "Pay Bills",
+        completed: false
+    }
 ]
 
 export default todosData
+
